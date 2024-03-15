@@ -17,7 +17,8 @@ Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "Syntax_Hi
+Plug 'luochen1990/rainbow' "Syntax Highlighter
+
 call plug#end()
 
 let g:NERDTreeDirArrowExpandable="+"
@@ -27,6 +28,10 @@ nnoremap <C-b> :NERDTreeToggle<CR>
 map  <C-l> :tabn<CR>
 map  <C-h> :tabp<CR>
 map  <C-n> :tabnew<CR>
+map <C-w> :tabclose<CR>
+
 nnoremap <C-t> :TerminalSplit bash<CR>
+let g:rainbow_active = 1
+
 
 
