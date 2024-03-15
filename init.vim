@@ -6,6 +6,8 @@
 :set smarttab
 :set softtabstop=4
 :set shiftwidth=4
+:set clipboard=unnamedplus
+filetype plugin indent on
 
 call plug#begin()
 
@@ -18,6 +20,7 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'luochen1990/rainbow' "Syntax Highlighter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -32,6 +35,7 @@ map <C-w> :tabclose<CR>
 
 nnoremap <C-t> :TerminalSplit bash<CR>
 let g:rainbow_active = 1
+
 
 
 
