@@ -19,8 +19,7 @@ Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
-Plug 'luochen1990/rainbow' "Syntax Highlighter
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'https://github.com/uiiaoo/java-syntax.vim' "java s H
 
 call plug#end()
 
@@ -34,8 +33,6 @@ map  <C-n> :tabnew<CR>
 map <C-w> :tabclose<CR>
 
 nnoremap <C-t> :TerminalSplit bash<CR>
-let g:rainbow_active = 1
-
 
 
 
